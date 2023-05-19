@@ -1,8 +1,15 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
-  content: [],
+  content: [
+    './index.html',
+  ],
   theme: {
-    extend: {},
+    extend: {
+      backgroundColor:{
+        'turq': '#026179',
+        'facebook': '#4267B2'
+      }
+    },
   },
   plugins: [],
 }
